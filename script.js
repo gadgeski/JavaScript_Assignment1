@@ -6,5 +6,5 @@ const changeButton = document.getElementById("changeButton");
 changeButton.addEventListener("click", () => {
   // テキストの内容を変更
   myText.textContent = "テキストがJavaScriptによって変更されました！";
-  myText.style.color = "green"; // スタイルも変更
+  myText.style.color = "#7fffd4"; // スタイルも変更
 });
